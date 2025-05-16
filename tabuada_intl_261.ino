@@ -17,7 +17,9 @@ void setup()
 
     
 Serial.print("("+String(Numero));    
-Serial.print(" * ");    
+Serial.print(" * ");
+Serial.print(contador);
+Serial.print(" = "); 
 Serial.print(Resultado);
 Serial.println(")");
   }
